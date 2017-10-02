@@ -1,0 +1,47 @@
+body {
+    color: #000;
+    background-color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-pblog {
+    background-color: #37a000;
+}
+
+.nav-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: table;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(57, 73, 76, .35);
+}
+
+.nav-wrapper .navbar {
+    padding: .75rem 1rem;
+}
+
+.nav-wrapper .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    color: #4d4d4d;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.nav-wrapper .navbar-brand span {
+    color: #6FDA44;
+}
+
+.navbar-expand-md .navbar-collapse {
+    display: block !important;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
